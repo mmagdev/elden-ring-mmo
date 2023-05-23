@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring MMO | Torne-se o novo Lorde Prístino</title>
+
+    <link rel="stylesheet" href="./src/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><b>Elden Ring MMO</b></h2>
+        <nav class="navigation">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Downloads</a>
+            <a href="#">Fale Conosco</a>
+            <button class="btnLogin-popup">Entrar</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        
+        <div class="form-box login">
+            <h2>Entrar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>E-mail</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock"></ion-icon></span>
+                    <input type="senha" required>
+                    <label>Senha</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Lembre-se</label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="btn">Entrar</button>
+
+                <div class="login-register">
+                    <p>Bem vindo, maculado!  <a href="#" class="register-link">Nova conta</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Criar Conta</h2>
+            <form action="#">
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label>Usuário</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>E-mail</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                    <input type="senha" required>
+                    <label>Senha</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">
+                    Concordo com os Termos & Condições</label>
+                </div>
+
+                <button type="submit" class="btn">Registrar</button>
+
+                <div class="login-register">
+                    <p>Já possui uma conta?  <a href="#" class="login-link">Entrar</a></p>
+                </div>
+            </form>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
